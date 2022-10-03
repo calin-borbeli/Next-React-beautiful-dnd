@@ -1,6 +1,10 @@
 # React-beautiful-dnd with Next.js, Typescript and Tailwind
 
-**Important! These notes are for future me so I can remember what I did. They may not make sense to you, so feel free to ignore them or use them as you see fit.**
+> **Important!**
+> These notes are for future me so I can remember what I did.
+> They may not make sense to you, so feel free to ignore them or use them as you see fit.
+
+## Description
 
 This is a Next.js implementation of the original course for **React-beautiful-dnd** created by Alex Reardon (https://egghead.io/courses/beautiful-and-accessible-drag-and-drop-with-react-beautiful-dnd)
 
@@ -10,15 +14,13 @@ Also, to push it a bit further the implementation also uses Typescript and Tailw
 
 This is the **Next React-beautiful-dnd Demo** (https://next-react-beautiful-dnd-calin-borbeli.vercel.app/)
 
----
+## How to make it work
 
-## First fix
+### First fix
 
 **Unable to find any drag handles** will require a custom `_document.js` file that uses `resetServerContext` from react-beautiful-dnd.
 
----
-
-## Second fix
+### Second fix
 
 Drag and drop not working with an error message saying that it **cannot find the droppable id**. This issue is only in development not in production.
 
